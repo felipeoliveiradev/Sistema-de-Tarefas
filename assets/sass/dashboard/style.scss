@@ -1,0 +1,504 @@
+.dashboardContainer{
+  width: 100%;
+  height: auto;
+  
+  .left{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: #000;
+    top: 0;
+  left: 0;
+    h1{
+      color: #fff;
+      padding: 1rem;
+      padding-bottom: 0;
+      margin-bottom: 0;
+
+    }
+    hr{
+      width: 10%;
+      border-color: #fff;
+      margin-left:0;
+    }
+    ul{
+      padding: 1rem;
+      list-style: none;
+      li{
+        border-bottom:1px dashed #ced7df;
+        padding: {
+          top:0.5rem;
+          bottom:0.5rem;
+        }
+        a{
+          text-decoration: none;
+          color:#fff;
+
+        }
+        
+      }
+      input[type=checkbox]{
+        background: #f7f7f7;
+        border: none;
+      }
+    }
+    form{
+      width: 100%;
+      padding: 1rem;
+      
+      justify-content: center;
+      justify-items: center;
+      .inputContainerSingle{
+        width: 100%;
+        display: block;
+      }
+      input{
+        width: 100%;
+        height: auto;
+        border:none;
+        background: transparent;
+        border-bottom:1px solid #fff;
+        color:#fff;
+        padding: {
+          top:0.5rem;
+          bottom: 0.5rem;
+        }
+        font-size: 1rem;  
+        
+        
+      }
+    
+    .inputContainerBtnSingle{
+      width: 100%;
+      text-align: right;
+      margin-top:0.5rem;
+      .btnEntrar{
+        background: transparent;
+        color:#fff;
+        border-radius:10px 10px 10px 0;
+        border:1px solid #fff;
+        width: auto;
+        padding: 0.5rem;
+      }
+    }
+  }
+  }
+  .right{
+    position: relative;
+    width: calc(100% - 300px);
+    margin-left:300px;
+    padding: 1rem;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .containerCard{
+      padding:1rem;
+      padding-bottom: 2rem;
+      border-top:2px solid #000;                                          
+      width: 400px;
+      height: auto;
+      background: #fff;
+      -webkit-box-shadow: 0px 9px 60px -14px rgba(66,66,66,0.28);
+      -moz-box-shadow: 0px 9px 60px -14px rgba(66,66,66,0.28);
+      box-shadow: 0px 9px 60px -14px rgba(66,66,66,0.28);
+      float:left;
+      margin:1rem;
+      h1{
+        font-size: 1.5rem;
+      }
+      border-radius:0px 0px 30px 0;
+          ul{
+            padding: 0;
+            list-style: none;
+            li{
+              border-bottom:1px dashed #ced7df;
+              padding: {
+                top:0.5rem;
+                bottom:0.5rem;
+              }
+              a{
+                text-decoration: none;
+                color:#000;
+
+              }
+              
+            }
+            input[type=checkbox]{
+              background: #f7f7f7;
+              border: none;
+            }
+          }
+    }
+    .btnConcluir{
+      background: #5ecc62;
+      color:#fff !important;
+      border-radius: 5px 5px 5px 0;
+      padding: {
+        left:0.5rem;
+        right:0.5rem;
+        top:0.3rem;
+        bottom:0.3rem;
+      }
+      margin-left: 0.5rem;
+
+    }
+    .btnDelete{
+      background: #e01f3d;
+      color:#fff !important;
+      border-radius: 5px 5px 5px 0;
+      padding: {
+        left:0.5rem;
+        right:0.5rem;
+        top:0.3rem;
+        bottom:0.3rem;
+      }
+      margin-left: 0.5rem;
+      text-decoration: none;
+
+    }
+    .btnCadastrarNova{
+      background: transparent;
+      color:#000;
+      border-radius:10px 10px 10px 0;
+      border:1px solid #000;
+      width: auto;
+      padding: {
+        left:0.5rem;
+        right:0.5rem;
+        top:0.3rem;
+        bottom:0.3rem;
+      }
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+#registerGroupTask{
+
+
+    h1{
+      color: #000;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      padding: 1rem;
+      padding: {
+        bottom:0;
+      }  
+
+    }
+    hr{
+      width: 100%;
+      border-color: #000;
+      border-style: dashed;
+      margin-left:0;
+    }
+
+    form{
+      width: 100%;
+      padding: 1rem;
+      padding: {
+        top:0;
+      }
+      
+      justify-content: center;
+      justify-items: center;
+      .inputContainerSingle{
+        width: 100%;
+        display: block;
+      }
+      input{
+        width: 100%;
+        height: auto;
+        border:none;
+        background: transparent;
+        border-bottom:1px solid #000;
+        color:#000;
+        padding: {
+          top:0.5rem;
+          bottom: 0.5rem;
+        }
+        font-size: 1rem;  
+        
+        
+      }
+    
+    .inputContainerBtnSingle{
+      width: 100%;
+      text-align: right;
+      margin-top:0.5rem;
+      .btnEntrar{
+        background: transparent;
+        color:#000;
+        border-radius:10px 10px 10px 0;
+        border:1px solid #000;
+        width: auto;
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+#editorGroupTask{
+
+  .titleTaskNameInput{
+    width: calc(100% - 66px);
+    float: left;
+    input{
+      width: 100% !important;
+    }
+  }
+  .btnTaskClass{
+    width: 66px;
+    float: right;
+    input{
+      width: 100% !important;
+    }
+  }
+
+  h1{
+    color: #000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+    padding: {
+      bottom:0;
+    }  
+
+  }
+  hr{
+    width: 100%;
+    border-color: #000;
+    border-style: dashed;
+    margin-left:0;
+  }
+  ul{
+    padding: 0;
+    list-style: none;
+    li{
+      border-bottom:1px dashed #ced7df;
+      padding: {
+        top:0.5rem;
+        bottom:0.5rem;
+      }
+      a{
+        text-decoration: none;
+        color:red;
+
+
+      }
+      span{
+        width: 20px;
+        float: left;
+        font-size: 20px;
+       
+      }
+      
+    }
+
+  }
+  form{
+    width: 100%;
+    padding: 1rem;
+    padding: {
+      top:0;
+    }
+    
+    justify-content: center;
+    justify-items: center;
+    .inputContainerSingle{
+      width: 100%;
+      display: block;
+    }
+    input{
+      width: calc(100% - 20px);
+      height: auto;
+      border:none;
+      background: transparent;
+      
+      color:#000;
+      padding: {
+        top:0.5rem;
+        bottom: 0.5rem;
+      }
+      font-size: 1rem;  
+      
+      
+    }
+  
+  .inputContainerBtnSingle{
+    width: 100%;
+    text-align: right;
+    margin-top:0.5rem;
+    .btnPadrao{
+      background: transparent;
+      color:#000;
+      border-radius:10px 10px 10px 0;
+      border:1px solid #000;
+      width: auto;
+      padding: 0.5rem;
+    }
+  }
+}
+}
+
+#updateGroupTask{
+
+
+  h1{
+    color: #000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+    padding: {
+      bottom:0;
+    }  
+
+  }
+  hr{
+    width: 100%;
+    border-color: #000;
+    border-style: dashed;
+    margin-left:0;
+  }
+
+  form{
+    width: 100%;
+    padding: 1rem;
+    padding: {
+      top:0;
+    }
+    
+    justify-content: center;
+    justify-items: center;
+    .inputContainerSingle{
+      width: 100%;
+      display: block;
+    }
+    input{
+      width: 100%;
+      height: auto;
+      border:none;
+      background: transparent;
+      border-bottom:1px solid #000;
+      color:#000;
+      padding: {
+        top:0.5rem;
+        bottom: 0.5rem;
+      }
+      font-size: 1rem;  
+      
+      
+    }
+  
+  .inputContainerBtnSingle{
+    width: 100%;
+    text-align: right;
+    margin-top:0.5rem;
+    .btnEntrar{
+      background: transparent;
+      color:#000;
+      border-radius:10px 10px 10px 0;
+      border:1px solid #000;
+      width: auto;
+      padding: 0.5rem;
+    }
+  }
+}
+}
+
+#registerTask{
+
+
+  h1{
+    color: #000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 1rem;
+    padding: {
+      bottom:0;
+    }  
+
+  }
+  hr{
+    width: 100%;
+    border-color: #000;
+    border-style: dashed;
+    margin-left:0;
+  }
+
+  form{
+    width: 100%;
+    padding: 1rem;
+    padding: {
+      top:0;
+    }
+    
+    justify-content: center;
+    justify-items: center;
+    .inputContainerSingle{
+      width: 100%;
+      display: block;
+    }
+    input{
+      width: 100%;
+      height: auto;
+      border:none;
+      background: transparent;
+      border-bottom:1px solid #000;
+      color:#000;
+      padding: {
+        top:0.5rem;
+        bottom: 0.5rem;
+      }
+      font-size: 1rem;  
+      
+      
+    }
+  
+  .inputContainerBtnSingle{
+    width: 100%;
+    text-align: right;
+    margin-top:0.5rem;
+    .btnEntrar{
+      background: transparent;
+      color:#000;
+      border-radius:10px 10px 10px 0;
+      border:1px solid #000;
+      width: auto;
+      padding: 0.5rem;
+    }
+  }
+}
+}
+
+
+
+//extras
+
+.btnpadrao{
+  background: transparent;
+  color:#000;
+  border-radius:10px 10px 10px 0;
+  border:1px solid #000 !important;
+  width: auto;
+  padding: {
+      left:0.5rem !important;
+      right:0.5rem !important;
+      top:0.3rem !important;
+      bottom:0.3rem !important;
+    
+  }
+}
+
+.selectDefaultStyle{
+  width: 100%;
+  height: auto;
+  background: #000;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+}

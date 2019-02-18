@@ -1,0 +1,100 @@
+body, html{
+  margin:0 auto;
+  padding: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+//IMPORTES
+
+@import "dashboard/style.scss";
+
+.LoginContainer{
+  background: #000;
+  background-image:url(../img/bg.png);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .form{
+    width: 400px;
+    height: auto;
+    padding: 1rem;
+    border-radius: 20px 20px 20px 0;
+    -webkit-box-shadow: 0px 10px 111px -12px rgba(66,66,66,1);
+    -moz-box-shadow: 0px 10px 111px -12px rgba(66,66,66,1);
+    box-shadow: 0px 10px 111px -12px rgba(66,66,66,1);
+    background: #fff;
+    .header{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding:1rem;
+      .img{
+        width: 100%;
+        height: 40px;
+        background-image:url(../img/logo.png);
+        background-size: contain;
+        background-repeat:no-repeat;
+        background-position: center;
+         
+      }
+    }
+    .center{
+      width: 100%;
+      //border-top: 0px solid #000;
+      form{
+        width: 100%;
+        padding: 1rem;
+        
+        justify-content: center;
+        justify-items: center;
+        .inputContainerSingle{
+          width: 100%;
+          display: block;
+        }
+        input{
+          width: 100%;
+          height: auto;
+          border:none;
+          border-bottom:1px solid #000;
+          padding: {
+            top:0.5rem;
+            bottom: 0.5rem;
+          }
+          font-size: 1rem;  
+          
+          
+        }
+      
+      .inputContainerBtnSingle{
+        width: 100%;
+        text-align: right;
+        margin-top:0.5rem;
+        .btnEntrar{
+          background: #000;
+          color:#fff;
+          border-radius:10px 10px 10px 0;
+          border:1px solid #000;
+          width: auto;
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+    .footer{
+      width: 100%;
+    }
+  }
+}
+
+//EXTRAS
+
+.tingle-enabled .tingle-content-wrapper {
+  filter: blur(8px);
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
